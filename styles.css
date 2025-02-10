@@ -1,0 +1,67 @@
+/*This contols the background of the page as well as the font style of the main content and nav bar */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/*Controls the Navbar colors, and padding, this took me way too long tbh*/
+header {
+    background-color: #004085;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/*controls spacing in link text*/
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+/*Controls spacing inbetween The nav text*/
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+/*Nav bar text styles and color*/
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+/*This controls the card effect in the center of the page, super proud of this one ngl*/
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/*controls the spacing of the section text*/
+section {
+    margin-bottom: 30px;
+}
+/*The line inbewteen sections*/
+h2 {
+    border-bottom: 2px solid #004085;
+    padding-bottom: 5px;
+    color: #004085;
+}
+/*Controls the footer text*/
+footer {
+    text-align: center;
+    background-color: #004085;
+    color: white;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
